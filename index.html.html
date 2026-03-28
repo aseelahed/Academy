@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html class="dark" dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Synthetic Muse | مزيج التقنية والإبداع</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600;700&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "outline-variant": "#40485d",
+              "on-error-container": "#ffb2b9",
+              "tertiary-container": "#ff5722",
+              "secondary-fixed": "#26e6ff",
+              "primary-fixed-dim": "#9c7eff",
+              "tertiary": "#ff734a",
+              "surface-container-high": "#141f38",
+              "primary": "#b6a0ff",
+              "surface-tint": "#b6a0ff",
+              "background": "#060e20",
+              "secondary-dim": "#00d4ec",
+              "on-secondary": "#004d57",
+              "surface-dim": "#060e20",
+              "on-error": "#490013",
+              "on-primary-fixed-variant": "#32008a",
+              "secondary-fixed-dim": "#00d7f0",
+              "error": "#ff6e84",
+              "on-secondary-fixed": "#003a42",
+              "on-surface-variant": "#a3aac4",
+              "inverse-surface": "#faf8ff",
+              "inverse-primary": "#6834eb",
+              "secondary": "#00e3fd",
+              "surface-container-highest": "#192540",
+              "on-secondary-container": "#e8fbff",
+              "surface-container-low": "#091328",
+              "tertiary-fixed": "#ff9475",
+              "error-dim": "#d73357",
+              "on-tertiary-container": "#250400",
+              "on-tertiary": "#430c00",
+              "tertiary-fixed-dim": "#ff7d57",
+              "on-tertiary-fixed": "#340800",
+              "surface-container-lowest": "#000000",
+              "outline": "#6d758c",
+              "primary-container": "#a98fff",
+              "on-primary-fixed": "#000000",
+              "secondary-container": "#006875",
+              "surface-bright": "#1f2b49",
+              "primary-fixed": "#a98fff",
+              "on-tertiary-fixed-variant": "#6f1a00",
+              "on-secondary-fixed-variant": "#005964",
+              "primary-dim": "#7e51ff",
+              "surface-container": "#0f1930",
+              "inverse-on-surface": "#4d556b",
+              "on-primary-container": "#280072",
+              "on-surface": "#dee5ff",
+              "error-container": "#a70138",
+              "tertiary-dim": "#ff734a",
+              "on-background": "#dee5ff",
+              "surface": "#060e20",
+              "surface-variant": "#192540",
+              "on-primary": "#340090"
+            },
+            fontFamily: {
+              "headline": ["Space Grotesk"],
+              "body": ["Inter"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .glass-card {
+            background: rgba(25, 37, 64, 0.4);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+        }
+        .text-gradient-primary {
+            background: linear-gradient(135deg, #b6a0ff 0%, #7e51ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        body {
+            background-color: #060e20;
+            color: #dee5ff;
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3 {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+    </style>
+</head>
+<body class="selection:bg-primary/30">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#060e20]/80 backdrop-blur-xl border-b border-[#b6a0ff]/15 shadow-2xl shadow-[#000000]/50">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-bold tracking-tighter text-[#b6a0ff] font-['Space_Grotesk'] hover:scale-105 transition-transform cursor-pointer">
+                Synthetic Muse
+            </div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-[#b6a0ff] font-bold border-b-2 border-[#b6a0ff] pb-1 font-['Space_Grotesk'] tracking-tight duration-300" href="#">Courses</a>
+<a class="text-slate-400 hover:text-[#00e3fd] transition-colors font-['Space_Grotesk'] tracking-tight duration-300" href="#">Creative Gallery</a>
+<a class="text-slate-400 hover:text-[#00e3fd] transition-colors font-['Space_Grotesk'] tracking-tight duration-300" href="#">About</a>
+</div>
+<button class="bg-gradient-to-r from-primary to-primary-dim text-on-primary-container px-6 py-2 rounded-xl font-bold hover:scale-105 transition-transform duration-300">
+                Get Started
+            </button>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-30" data-alt="abstract digital waves in deep purple and blue with cinematic lighting and subtle grain texture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCI0HHk0QuhVHEL5Wu3VVkv6BOh4dpAmLQOkPwE-cNS1_pEjYJLEwSL23eA3cap6gv9Rxc2jrl-UFlxfecGK6C4F9foxpsBiDAHx9AlkBAJUDpynlHHsviKpImaPO9XrNPNy67cXDRb5KvBTL-i3WCb8xs0QH8UQVx6g4wsqShkNLOOUclS8V9eP6vHQutBtPHS8I9vChrsQ2LNNIyfUO9TKhdCaAYIxqgguP3TC1krE-mEP5rlNWV7JgWGmrzLgkubCNXr8l88nZ-Q"/>
+<div class="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-[45%_55%] gap-12 items-center">
+<div class="space-y-8 text-right md:text-right">
+<span class="inline-block px-4 py-1 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-sm font-label tracking-widest uppercase">AI + Content Creation</span>
+<h1 class="text-6xl md:text-8xl font-bold tracking-tighter leading-tight">
+                    مزيج التقنية <br/>
+<span class="text-gradient-primary">والإبداع</span>
+</h1>
+<p class="text-xl text-on-surface-variant max-w-xl leading-relaxed">
+                    اكتشف آفاقاً جديدة في صناعة المحتوى باستخدام الذكاء الاصطناعي. تعلم كيف تدمج السينمائية مع أحدث تقنيات الـ AI لخلق تجارب بصرية مذهلة.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 justify-start">
+<button class="px-8 py-4 bg-gradient-to-br from-primary to-primary-dim rounded-xl font-bold text-lg shadow-xl shadow-primary/20 hover:scale-105 transition-transform">
+                        ابدأ رحلتك الإبداعية
+                    </button>
+<button class="px-8 py-4 glass-card border border-outline-variant/30 rounded-xl font-bold text-lg hover:bg-surface-bright transition-colors">
+                        عرض الأعمال
+                    </button>
+</div>
+</div>
+<div class="hidden lg:block relative">
+<div class="absolute -inset-4 bg-primary/20 blur-3xl rounded-full"></div>
+<div class="relative glass-card p-4 rounded-3xl border border-primary/20 overflow-hidden aspect-square">
+<img class="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700" data-alt="close-up of a high-tech camera lens reflecting neon purple and cyan lights in a dark studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqSpyqKAH7aDeHmxMChiLueQH058dwdhRWL0_5V07o1VD8YPoEbUvykE9EI7mqR46H9WA2RVwz-SQnZqCXK2N0VItrChYJI-4JWhEyvBBoBEMoFw6KeCYso0NZilF1DY2qPQCCxUL4o3hhVmpsl3lMCELoVSbSaqOnrdYkN6_JPJQS8GUdRVSsctVSdpOPCppTr400F4P1mc4Hm6-D9FOawHOqSc_4f5OzH-adAwhjTMu6-aMIlgchBeOgiMW0zXgGSgY8lkgP6vRb"/>
+<div class="absolute bottom-8 right-8 left-8 glass-card p-6 rounded-2xl border border-white/10">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-white" data-icon="bolt" data-weight="fill">bolt</span>
+</div>
+<div>
+<p class="text-xs font-label text-tertiary font-bold uppercase tracking-wider">Live Status</p>
+<p class="text-lg font-bold">الذكاء الاصطناعي في خدمة الفن</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 1: Fast Montage Secrets -->
+<section class="py-32 bg-surface-container-low relative overflow-hidden">
+<div class="max-w-7xl mx-auto px-8 relative z-10">
+<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+<div class="max-w-2xl text-right">
+<h2 class="text-4xl md:text-5xl font-bold mb-6">أسرار المونتاج السريع <span class="text-secondary">(CapCut &amp; VN)</span></h2>
+<p class="text-on-surface-variant text-lg">أتقن فن التعديل الاحترافي في ثوانٍ. نركز على سير عمل يجمع بين السرعة والنتائج السينمائية المبهرة.</p>
+</div>
+<div class="flex gap-4">
+<div class="w-16 h-16 glass-card rounded-2xl flex items-center justify-center border border-secondary/30">
+<span class="material-symbols-outlined text-secondary text-3xl" data-icon="speed">speed</span>
+</div>
+<div class="w-16 h-16 glass-card rounded-2xl flex items-center justify-center border border-primary/30">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="auto_awesome">auto_awesome</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="glass-card p-8 rounded-3xl border border-outline-variant/15 hover:border-secondary/50 transition-colors group">
+<div class="mb-6 overflow-hidden rounded-2xl aspect-video bg-surface-container-highest">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="dynamic close-up of a person editing video on a smartphone with glowing interface elements" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCv1RnwggAoG5-ZoaIXjwZkG9NOc5SbonSXiC7J7aykyfqkGq_j-2X1CZcIDbCYW0pmyVrTcqHhK9i9yG8ObWsdoKdA8ia2bc0IRAJYztMZ4oAV8zUj-JCUva2kaZ75BWMWGbMsAeKobyonQIguQS0eJcRY2ZOaflatWrryov4U8mPBApDA1e_eTMa06RpDw1fJkqYwP5T3t9aZ5LJ-dMISIbfTFT2doICQEiUI6YuyWgZRaMUPtS-OFSojvNQxl66rNIjzrsN6HwQK"/>
+</div>
+<h3 class="text-2xl font-bold mb-4">انتقالات سلسة</h3>
+<p class="text-on-surface-variant">تعلم كيفية استخدام Keyframes لخلق حركات طبيعية تجذب المشاهد من اللحظة الأولى.</p>
+</div>
+<div class="glass-card p-8 rounded-3xl border border-outline-variant/15 hover:border-secondary/50 transition-colors group">
+<div class="mb-6 overflow-hidden rounded-2xl aspect-video bg-surface-container-highest">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="abstract tech background with cyber green and blue circuit lines glowing in the dark" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAktZ8kxMouuDQTh88b0pYBhOFzS-0hOBwXi52Qoe8cma_7BrkPmc_0h9j23XE_5YVqNFmGgvnLQlW7r8Pb_lXjSTJchIRTmFHgK4alvGktAkzuhR6LSsOSGTXep9__nOP195wrQHT5sgzA9NExe5B9CSvGku8EewRT2LqB6OHnhSxRfWp_kNpaY7X-08RR9O7LJnra4rbow6W-FgaBJMWHrAjBBc9GflNMuMt02Wjy6nqVUdfz1gHS_wRo4Rc723UNqMkIEeaXRbl-"/>
+</div>
+<h3 class="text-2xl font-bold mb-4">تصحيح الألوان السينمائي</h3>
+<p class="text-on-surface-variant">حوّل لقطات هاتفك العادية إلى لوحات فنية باستخدام Color Grading مخصص.</p>
+</div>
+<div class="glass-card p-8 rounded-3xl border border-outline-variant/15 hover:border-secondary/50 transition-colors group">
+<div class="mb-6 overflow-hidden rounded-2xl aspect-video bg-surface-container-highest">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="professional video editing software interface with multiple timelines and audio waveforms" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-g4jNPWTDqToP6A0lSOgJmfBP34GUfKI8wfJSA6jQcvQjh0g66zS5eeF0hOYXufAQGXkw081hQV0kPRF6XSfU23b_IByaqbTfN-zNTluN7z2TsGi5XTpePxm8zrIm00BBnBZjkRLUd_Mzeb0BsRig1q_ngwqoQs5z8qnuqM6xtWsHGLpjPqVJQKeWrLwrJ7GWxIz-nmwfrCQVUzz5v0ka4gGU-0_y1IB8jrXSuo6ERutTnC2bmW5Ge1m1N_Dwki8sCRCQ3e-u_yEp"/>
+</div>
+<h3 class="text-2xl font-bold mb-4">إيقاع الموسيقى</h3>
+<p class="text-on-surface-variant">السر في المزامنة. تعلم كيف تجعل قصصك تتحرك مع النغمات بشكل آلي واحترافي.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Prompt Engineering -->
+<section class="py-32 relative">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="relative order-2 lg:order-1">
+<div class="absolute -top-10 -left-10 w-40 h-40 bg-secondary/20 blur-[80px]"></div>
+<div class="bg-surface-container-highest rounded-3xl p-8 font-mono text-sm border border-outline-variant/20 shadow-2xl overflow-hidden">
+<div class="flex gap-2 mb-6">
+<div class="w-3 h-3 rounded-full bg-error"></div>
+<div class="w-3 h-3 rounded-full bg-tertiary"></div>
+<div class="w-3 h-3 rounded-full bg-secondary"></div>
+</div>
+<p class="text-secondary mb-2">// Creative AI Prompt v2.0</p>
+<p class="text-on-surface-variant mb-4">
+<span class="text-primary">act_as</span>("Cinematographer") {<br/>
+                          <span class="text-primary">subject:</span> "Golden hour in Riyadh",<br/>
+                          <span class="text-primary">style:</span> "Cyberpunk-Arabesque",<br/>
+                          <span class="text-primary">lighting:</span> "Volumetric neon fog",<br/>
+                          <span class="text-primary">rendering:</span> "Octane Engine 8k"<br/>
+                        }
+                    </p>
+<div class="h-1 bg-outline-variant/30 w-full mb-4"></div>
+<p class="text-tertiary italic"># Generating your creative vision...</p>
+</div>
+<div class="mt-8 glass-card p-6 rounded-2xl border border-primary/20 flex items-center gap-6">
+<div class="flex -space-x-4 space-x-reverse">
+<div class="w-12 h-12 rounded-full border-2 border-background bg-slate-700"></div>
+<div class="w-12 h-12 rounded-full border-2 border-background bg-slate-600"></div>
+<div class="w-12 h-12 rounded-full border-2 border-background bg-slate-500"></div>
+</div>
+<p class="text-sm font-label text-on-surface-variant">+1.2k طالب يتعلمون هندسة الأوامر الآن</p>
+</div>
+</div>
+<div class="space-y-8 text-right order-1 lg:order-2">
+<h2 class="text-4xl md:text-5xl font-bold leading-tight">هندسة الأوامر <br/><span class="text-gradient-primary">(Prompt Engineering)</span> للمبدعين</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed">
+                    لا تكتفِ بالنتائج العشوائية. تعلم كيف تتحدث لغة الآلة لتحويل خيالك إلى واقع بدقة مذهلة. نكشف لك أسرار الـ Midjourney و ChatGPT لصناعة محتوى لا يُنسى.
+                </p>
+<ul class="space-y-4">
+<li class="flex items-center gap-4 justify-start">
+<span class="text-on-surface-variant">هيكلة الأوامر المعقدة للحصول على نتائج ثابتة</span>
+<span class="material-symbols-outlined text-secondary" data-icon="check_circle" data-weight="fill">check_circle</span>
+</li>
+<li class="flex items-center gap-4 justify-start">
+<span class="text-on-surface-variant">دمج الـ AI في عملية التفكير الإبداعي (Ideation)</span>
+<span class="material-symbols-outlined text-secondary" data-icon="check_circle" data-weight="fill">check_circle</span>
+</li>
+<li class="flex items-center gap-4 justify-start">
+<span class="text-on-surface-variant">تقنيات الـ Prompting المتقدمة للفيديو والصور</span>
+<span class="material-symbols-outlined text-secondary" data-icon="check_circle" data-weight="fill">check_circle</span>
+</li>
+</ul>
+<button class="text-tertiary font-bold text-lg flex items-center gap-2 group hover:gap-4 transition-all duration-300">
+<span class="material-symbols-outlined transform rotate-180" data-icon="arrow_back">arrow_back</span>
+                    استكشف المنهج التعليمي
+                </button>
+</div>
+</div>
+</section>
+<!-- Section 3: Creative Gallery (Before & After) -->
+<section class="py-32 bg-surface-container relative overflow-hidden">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-20">
+<h2 class="text-4xl md:text-5xl font-bold mb-6">المعرض الإبداعي</h2>
+<p class="text-on-surface-variant text-lg max-w-2xl mx-auto">شاهد السحر الذي يحدث عندما تلتقي التكنولوجيا بالخيال. مقارنة حية بين الخام والنتيجة النهائية.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<!-- Gallery Item 1 -->
+<div class="space-y-6">
+<div class="relative group rounded-3xl overflow-hidden aspect-[9/16] bg-black max-h-[600px] mx-auto">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="raw handheld footage of a city street at night with dull colors and natural blur" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDezDmjKWZOnmkNzqv_FCzcYHkTw-DicPCqWnj93K7zUAvMs-XG1pngoGHLHXAVwKAm1yoVodEslMukgnjGS31Ncj3gXO78joALc6M_uZxzOfYgSfjFQRZLVmBCyEid6DkrrxyUHBBn_RhC_cGVr05LpAd7cPaGnjn0-uHb_E9ruDL6nvYhFjtPa5MWrvaZnKMXl4yI305S5hfAI_Qc1wxdnYzxSQg-EEHMO_nkHXZViQcPii4wUt5xMIXhlGvRpwPWAc-vT7mphvIP"/>
+<div class="absolute inset-0 bg-primary/40 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<div class="absolute top-6 right-6 glass-card px-4 py-2 rounded-full text-sm font-bold border border-white/20">RAW FOOTAGE</div>
+<div class="absolute bottom-6 left-6 right-6 p-6 glass-card rounded-2xl border border-white/10 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+<p class="font-bold">قبل: تصوير هاتف عادي</p>
+</div>
+</div>
+</div>
+<!-- Gallery Item 2 -->
+<div class="space-y-6">
+<div class="relative group rounded-3xl overflow-hidden aspect-[9/16] bg-black max-h-[600px] mx-auto border-2 border-primary">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="stunning cinematic masterwork of a futuristic neon city with deep purples, sharp details, and professional color grading" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNTe1sHVPHEshOBDIVvhOEY-a6We86zIdFpon2d046vkXXzkhtRO_9yhM5H5W5jytk70Rask3ftdLJNHmxS5xN94UxvpTISrjrIVfpAbnyP5JDIBgdegPpmR2vtDFIG3mwATxBhFvYsoJCXyOleNCR9v53WEvWLfUN1esY3PRRCrxkTmh3aiIR49Ls1e6KK6AQPaMbFYTQk_944lwcOrPVj_kjLTIeB4l4d2qY_mUvGztqPP52ZgSzhKN9rk9BF1xJADzTUsyOr6E9"/>
+<div class="absolute top-6 right-6 bg-primary px-4 py-2 rounded-full text-sm font-bold shadow-lg">FINAL RESULT</div>
+<div class="absolute bottom-6 left-6 right-6 p-6 glass-card rounded-2xl border border-primary/30">
+<p class="font-bold text-primary">بعد: المعالجة بالـ AI والمونتاج</p>
+<p class="text-sm text-on-surface-variant mt-2">تم استخدام CapCut للتلوين و Midjourney للعناصر الخلفية.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Social Proof -->
+<section class="py-32">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="p-10 rounded-3xl bg-surface-container-low border border-outline-variant/10 relative">
+<span class="material-symbols-outlined text-primary/30 text-6xl absolute top-6 left-6" data-icon="format_quote">format_quote</span>
+<p class="text-lg mb-8 relative z-10">"كانت الدورة نقطة تحول في مسيرتي كصانع محتوى. تعلمت كيف أختصر ساعات من العمل في دقائق."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-slate-800"></div>
+<div>
+<p class="font-bold">أحمد م.</p>
+<p class="text-sm text-on-surface-variant">مخرج أفلام مستقل</p>
+</div>
+</div>
+</div>
+<div class="p-10 rounded-3xl bg-surface-container-low border border-outline-variant/10 relative">
+<span class="material-symbols-outlined text-secondary/30 text-6xl absolute top-6 left-6" data-icon="format_quote">format_quote</span>
+<p class="text-lg mb-8 relative z-10">"هندسة الأوامر غيرت طريقتي في التفكير. الآن أصبح الذكاء الاصطناعي شريكي الإبداعي الأول."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-slate-800"></div>
+<div>
+<p class="font-bold">سارة ع.</p>
+<p class="text-sm text-on-surface-variant">مصممة جرافيك</p>
+</div>
+</div>
+</div>
+<div class="p-10 rounded-3xl bg-surface-container-low border border-outline-variant/10 relative">
+<span class="material-symbols-outlined text-tertiary/30 text-6xl absolute top-6 left-6" data-icon="format_quote">format_quote</span>
+<p class="text-lg mb-8 relative z-10">"المعرض الإبداعي والدروس العملية تجعلك تبدأ في الإنتاج من اليوم الأول. لا مجال للتنظير هنا."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-slate-800"></div>
+<div>
+<p class="font-bold">خالد و.</p>
+<p class="text-sm text-on-surface-variant">صانع محتوى تقني</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Footer -->
+<section class="py-32 relative">
+<div class="max-w-5xl mx-auto px-8 relative z-10">
+<div class="bg-gradient-to-br from-primary/20 to-secondary/20 rounded-[3rem] p-12 md:p-20 text-center border border-white/10 backdrop-blur-xl">
+<h2 class="text-4xl md:text-6xl font-bold mb-8 tracking-tighter">هل أنت مستعد للمرحلة القادمة؟</h2>
+<p class="text-xl text-on-surface-variant mb-12 max-w-2xl mx-auto">انضم إلى أكثر من 2000 مبدع يعيدون تشكيل مستقبل المحتوى الرقمي.</p>
+<div class="flex flex-col sm:flex-row gap-6 justify-center">
+<button class="bg-primary text-on-primary-container px-10 py-5 rounded-2xl font-extrabold text-xl hover:scale-105 transition-transform shadow-2xl shadow-primary/20">
+                        اشترك في الأكاديمية الآن
+                    </button>
+<button class="glass-card px-10 py-5 rounded-2xl font-bold text-xl border border-white/10 hover:bg-white/10 transition-colors">
+                        تواصل معي مباشرة
+                    </button>
+</div>
+<div class="mt-12 flex items-center justify-center gap-8 opacity-60 grayscale">
+<span class="font-headline font-bold text-2xl">VN</span>
+<span class="font-headline font-bold text-2xl">CapCut</span>
+<span class="font-headline font-bold text-2xl">Midjourney</span>
+<span class="font-headline font-bold text-2xl">OpenAI</span>
+</div>
+</div>
+</div>
+<div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-1/2 bg-gradient-to-t from-background to-transparent pointer-events-none"></div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#091328] w-full py-12 px-8 border-t border-[#b6a0ff]/10">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto">
+<div class="text-xl font-bold text-[#b6a0ff] font-['Space_Grotesk']">
+                Synthetic Muse
+            </div>
+<div class="flex gap-8">
+<a class="text-slate-500 hover:text-[#ff734a] transition-colors font-['Inter'] text-sm tracking-wide" href="#">Instagram</a>
+<a class="text-slate-500 hover:text-[#ff734a] transition-colors font-['Inter'] text-sm tracking-wide" href="#">YouTube</a>
+<a class="text-slate-500 hover:text-[#ff734a] transition-colors font-['Inter'] text-sm tracking-wide" href="#">LinkedIn</a>
+<a class="text-slate-500 hover:text-[#ff734a] transition-colors font-['Inter'] text-sm tracking-wide" href="#">Contact</a>
+</div>
+<div class="text-slate-500 font-['Inter'] text-sm tracking-wide opacity-80">
+                © 2024 Synthetic Muse. All rights reserved.
+            </div>
+</div>
+</footer>
+</body></html>
