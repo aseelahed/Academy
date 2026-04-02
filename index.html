@@ -3,378 +3,368 @@
 <html class="dark" dir="rtl" lang="ar"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Synthetic Muse | مزيج التقنية والإبداع</title>
+<title>ALCHEMIST | أطلق العنان لمبدعك الداخلي</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600;700&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-              "outline-variant": "#40485d",
-              "on-error-container": "#ffb2b9",
-              "tertiary-container": "#ff5722",
-              "secondary-fixed": "#26e6ff",
-              "primary-fixed-dim": "#9c7eff",
-              "tertiary": "#ff734a",
-              "surface-container-high": "#141f38",
-              "primary": "#b6a0ff",
-              "surface-tint": "#b6a0ff",
-              "background": "#060e20",
-              "secondary-dim": "#00d4ec",
-              "on-secondary": "#004d57",
-              "surface-dim": "#060e20",
-              "on-error": "#490013",
-              "on-primary-fixed-variant": "#32008a",
-              "secondary-fixed-dim": "#00d7f0",
-              "error": "#ff6e84",
-              "on-secondary-fixed": "#003a42",
-              "on-surface-variant": "#a3aac4",
-              "inverse-surface": "#faf8ff",
-              "inverse-primary": "#6834eb",
-              "secondary": "#00e3fd",
-              "surface-container-highest": "#192540",
-              "on-secondary-container": "#e8fbff",
-              "surface-container-low": "#091328",
-              "tertiary-fixed": "#ff9475",
-              "error-dim": "#d73357",
-              "on-tertiary-container": "#250400",
-              "on-tertiary": "#430c00",
-              "tertiary-fixed-dim": "#ff7d57",
-              "on-tertiary-fixed": "#340800",
-              "surface-container-lowest": "#000000",
-              "outline": "#6d758c",
-              "primary-container": "#a98fff",
-              "on-primary-fixed": "#000000",
-              "secondary-container": "#006875",
-              "surface-bright": "#1f2b49",
-              "primary-fixed": "#a98fff",
-              "on-tertiary-fixed-variant": "#6f1a00",
-              "on-secondary-fixed-variant": "#005964",
-              "primary-dim": "#7e51ff",
-              "surface-container": "#0f1930",
-              "inverse-on-surface": "#4d556b",
-              "on-primary-container": "#280072",
-              "on-surface": "#dee5ff",
-              "error-container": "#a70138",
-              "tertiary-dim": "#ff734a",
-              "on-background": "#dee5ff",
-              "surface": "#060e20",
-              "surface-variant": "#192540",
-              "on-primary": "#340090"
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-dim": "#e31c40",
+                        "on-secondary-fixed": "#690932",
+                        "surface": "#0e0e0e",
+                        "primary-fixed-dim": "#ff5866",
+                        "error-dim": "#d53d18",
+                        "on-surface-variant": "#adaaaa",
+                        "on-tertiary-fixed-variant": "#4b1d87",
+                        "on-secondary-fixed-variant": "#902a4e",
+                        "on-tertiary-fixed": "#23004d",
+                        "primary": "#ff8d90",
+                        "on-primary-fixed-variant": "#600013",
+                        "primary-container": "#ff757b",
+                        "tertiary-dim": "#b489f5",
+                        "background": "#0e0e0e",
+                        "on-surface": "#ffffff",
+                        "surface-variant": "#262626",
+                        "primary-fixed": "#ff757b",
+                        "surface-container": "#1a1919",
+                        "on-error": "#450900",
+                        "inverse-primary": "#c00030",
+                        "tertiary-fixed-dim": "#b98efb",
+                        "secondary": "#fa7ea2",
+                        "outline": "#777575",
+                        "surface-tint": "#ff8d90",
+                        "secondary-fixed-dim": "#ffadc1",
+                        "surface-bright": "#2c2c2c",
+                        "on-tertiary-container": "#35006e",
+                        "on-secondary": "#550025",
+                        "tertiary-fixed": "#c59eff",
+                        "on-background": "#ffffff",
+                        "surface-container-lowest": "#000000",
+                        "error": "#ff7351",
+                        "on-error-container": "#ffd2c8",
+                        "surface-container-high": "#201f1f",
+                        "on-primary": "#640014",
+                        "inverse-on-surface": "#565554",
+                        "secondary-container": "#832044",
+                        "outline-variant": "#494847",
+                        "secondary-dim": "#f0779a",
+                        "on-primary-fixed": "#000000",
+                        "on-secondary-container": "#ffbfce",
+                        "surface-container-highest": "#262626",
+                        "secondary-fixed": "#ffc1cf",
+                        "tertiary": "#c59eff",
+                        "error-container": "#b92902",
+                        "on-primary-container": "#4e000e",
+                        "inverse-surface": "#fcf8f8",
+                        "on-tertiary": "#41107e",
+                        "surface-dim": "#0e0e0e",
+                        "surface-container-low": "#131313",
+                        "tertiary-container": "#b98efb"
+                    },
+                    fontFamily: {
+                        "headline": ["Almarai", "sans-serif"],
+                        "body": ["Almarai", "sans-serif"],
+                        "label": ["Almarai", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+                },
             },
-            fontFamily: {
-              "headline": ["Space Grotesk"],
-              "body": ["Inter"],
-              "label": ["Manrope"]
-            },
-            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
-          },
-        },
-      }
+        }
     </script>
 <style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-            display: inline-block;
-            vertical-align: middle;
-        }
-        .glass-card {
-            background: rgba(25, 37, 64, 0.4);
-            backdrop-filter: blur(24px);
-            -webkit-backdrop-filter: blur(24px);
-        }
-        .text-gradient-primary {
-            background: linear-gradient(135deg, #b6a0ff 0%, #7e51ff 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        body {
-            background-color: #060e20;
-            color: #dee5ff;
-            font-family: 'Inter', sans-serif;
-        }
-        h1, h2, h3 {
-            font-family: 'Space Grotesk', sans-serif;
-        }
+        body { font-family: 'Almarai', sans-serif; background-color: #0e0e0e; color: #ffffff; scroll-behavior: smooth; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .text-glow { text-shadow: 0 0 15px rgba(227, 28, 64, 0.4); }
+        .bg-glass { background: rgba(26, 25, 25, 0.6); backdrop-filter: blur(12px); }
+        .hero-gradient { background: linear-gradient(180deg, rgba(14, 14, 14, 0) 0%, rgba(14, 14, 14, 1) 100%), linear-gradient(45deg, rgba(227, 28, 64, 0.15) 0%, rgba(14, 14, 14, 0) 50%); }
     </style>
 </head>
-<body class="selection:bg-primary/30">
-<!-- TopNavBar -->
-<nav class="fixed top-0 w-full z-50 bg-[#060e20]/80 backdrop-blur-xl border-b border-[#b6a0ff]/15 shadow-2xl shadow-[#000000]/50">
-<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
-<div class="text-2xl font-bold tracking-tighter text-[#b6a0ff] font-['Space_Grotesk'] hover:scale-105 transition-transform cursor-pointer">
-                Synthetic Muse
-            </div>
-<div class="hidden md:flex items-center gap-8">
-<a class="text-[#b6a0ff] font-bold border-b-2 border-[#b6a0ff] pb-1 font-['Space_Grotesk'] tracking-tight duration-300" href="#">Courses</a>
-<a class="text-slate-400 hover:text-[#00e3fd] transition-colors font-['Space_Grotesk'] tracking-tight duration-300" href="#">Creative Gallery</a>
-<a class="text-slate-400 hover:text-[#00e3fd] transition-colors font-['Space_Grotesk'] tracking-tight duration-300" href="#">About</a>
+<body class="bg-surface text-on-surface selection:bg-primary-dim selection:text-white">
+<!-- Top Navigation Shell -->
+<nav class="fixed top-0 w-full z-50 bg-surface/70 backdrop-blur-md dark:bg-[#0e0e0e]/70">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-6">
+<div class="text-2xl font-black tracking-tighter text-white uppercase font-['Almarai']" style=""><img alt="ALCHEMIST Logo" class="h-11 w-auto object-contain h-12" src="https://lh3.googleusercontent.com/aida/ADBb0ugH0L7WDE3_lbVQfbpMHAsQuSid7MSCsFkYk_vch8RCxv0HN-qJpghXU0kkS4bVD_Pb0ncUsyNshoQTKromBbUHizT9Yt9RdxFhSXYV4uz6VYkkk6rTtqCEW-LyY25885T8nc86hATWDEKHJpq2TzNUWMwc3pzLMcpoobSsLzFPxqbDXU9cUcRvZCMj_VDeXaT3mStVexM8jQ1rFCvn4B9if7tMVDtu5DxKykERU8LuaJjT50eXYkFgs0pNlsZ-tLeG83wQWE7V4JQ" style="max-height: 50px;"/></div>
+<div class="hidden md:flex items-center gap-10">
+<a class="text-white border-b-2 border-[#e31c40] pb-1 font-['Almarai'] font-bold text-sm tracking-tight" href="#hero" style="">الرئيسية</a>
+<a class="text-[#adaaaa] hover:text-white transition-colors font-['Almarai'] font-bold text-sm tracking-tight" href="#courses" style="">الدورات</a>
+<a class="text-[#adaaaa] hover:text-white transition-colors font-['Almarai'] font-bold text-sm tracking-tight" href="#about" style="">عني</a>
+<a class="text-[#adaaaa] hover:text-white transition-colors font-['Almarai'] font-bold text-sm tracking-tight" href="#portfolio" style="">أعمالي</a>
 </div>
-<button class="bg-gradient-to-r from-primary to-primary-dim text-on-primary-container px-6 py-2 rounded-xl font-bold hover:scale-105 transition-transform duration-300">
-                Get Started
-            </button>
+<button class="bg-primary-dim text-on-primary px-6 py-2.5 rounded-lg font-['Almarai'] font-bold text-sm scale-95 active:scale-90 transition-all hover:bg-primary" style="">
+            Join Now
+        </button>
 </div>
 </nav>
 <!-- Hero Section -->
-<section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 scroll-mt-[100px]" id="hero">
 <div class="absolute inset-0 z-0">
-<img class="w-full h-full object-cover opacity-30" data-alt="abstract digital waves in deep purple and blue with cinematic lighting and subtle grain texture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCI0HHk0QuhVHEL5Wu3VVkv6BOh4dpAmLQOkPwE-cNS1_pEjYJLEwSL23eA3cap6gv9Rxc2jrl-UFlxfecGK6C4F9foxpsBiDAHx9AlkBAJUDpynlHHsviKpImaPO9XrNPNy67cXDRb5KvBTL-i3WCb8xs0QH8UQVx6g4wsqShkNLOOUclS8V9eP6vHQutBtPHS8I9vChrsQ2LNNIyfUO9TKhdCaAYIxqgguP3TC1krE-mEP5rlNWV7JgWGmrzLgkubCNXr8l88nZ-Q"/>
-<div class="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background"></div>
+<img class="w-full h-full object-cover opacity-40 mix-blend-luminosity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJdn9NAwk4VKoCBq9Mx1CV9LUVUl5qDMtBrxT2q7SSEDoB2lpSThnIuk0QpBCk4yt777awSKbY-IEAoQO8zfRLjClq9SLrZTAflSN9whnCKzktu2lgz2MMd3bX1UU-6iwjicNTL00eNQQ_o8A2_V5-7mVqFGslu_8SCSKOqF0ubK0pGLh6Oh_tL6YGULyYYZWcfyjDnZFsM61BRQFRuW5fttOlYv7fFke2MCvNmd9ODXHctlqeCzapL2wF3-_cnKtz7UItGkCsnrpH" style=""/>
+<div class="absolute inset-0 hero-gradient"></div>
 </div>
-<div class="relative z-10 max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-[45%_55%] gap-12 items-center">
-<div class="space-y-8 text-right md:text-right">
-<span class="inline-block px-4 py-1 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-sm font-label tracking-widest uppercase">AI + Content Creation</span>
-<h1 class="text-6xl md:text-8xl font-bold tracking-tighter leading-tight">
-                    مزيج التقنية <br/>
-<span class="text-gradient-primary">والإبداع</span>
-</h1>
-<p class="text-xl text-on-surface-variant max-w-xl leading-relaxed">
-                    اكتشف آفاقاً جديدة في صناعة المحتوى باستخدام الذكاء الاصطناعي. تعلم كيف تدمج السينمائية مع أحدث تقنيات الـ AI لخلق تجارب بصرية مذهلة.
-                </p>
-<div class="flex flex-col sm:flex-row gap-4 justify-start">
-<button class="px-8 py-4 bg-gradient-to-br from-primary to-primary-dim rounded-xl font-bold text-lg shadow-xl shadow-primary/20 hover:scale-105 transition-transform">
-                        ابدأ رحلتك الإبداعية
-                    </button>
-<button class="px-8 py-4 glass-card border border-outline-variant/30 rounded-xl font-bold text-lg hover:bg-surface-bright transition-colors">
-                        عرض الأعمال
-                    </button>
+<div class="relative z-10 max-w-5xl mx-auto px-8 text-center mt-12">
+<h1 class="text-5xl md:text-7xl font-extrabold font-headline leading-tight mb-8 tracking-tighter" style="">
+            أطلق العنان لمبدعك الداخلي بقوة <span class="text-primary-dim text-glow" style="">الذكاء الاصطناعي</span> وهاتفك فقط.
+        </h1>
+<p class="text-lg md:text-2xl text-on-surface-variant font-headline max-w-3xl mx-auto mb-12 leading-relaxed" style="">
+            دورات تطبيقية تجمع بين أحدث تقنيات الـ AI وفنون السرد البصري بالهاتف مع المدرب <span class="text-white border-b border-primary-dim pb-1" style="">محمد جمال</span>.
+        </p>
+<div class="flex flex-col md:flex-row items-center justify-center gap-6">
+<button class="bg-primary-dim text-white px-10 py-5 rounded-xl font-headline font-extrabold text-xl shadow-[0_0_30px_rgba(227,28,64,0.3)] hover:scale-105 transition-all duration-300" style="">
+                ابدأ رحلتك الإبداعية الآن
+            </button>
+<button class="text-on-surface flex items-center gap-3 font-headline font-bold hover:text-primary transition-colors" style="">
+<span class="material-symbols-outlined border border-outline-variant p-3 rounded-full" style="">play_arrow</span>
+                شاهد الإعلان الترويجي
+            </button>
 </div>
 </div>
-<div class="hidden lg:block relative">
-<div class="absolute -inset-4 bg-primary/20 blur-3xl rounded-full"></div>
-<div class="relative glass-card p-4 rounded-3xl border border-primary/20 overflow-hidden aspect-square">
-<img class="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700" data-alt="close-up of a high-tech camera lens reflecting neon purple and cyan lights in a dark studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqSpyqKAH7aDeHmxMChiLueQH058dwdhRWL0_5V07o1VD8YPoEbUvykE9EI7mqR46H9WA2RVwz-SQnZqCXK2N0VItrChYJI-4JWhEyvBBoBEMoFw6KeCYso0NZilF1DY2qPQCCxUL4o3hhVmpsl3lMCELoVSbSaqOnrdYkN6_JPJQS8GUdRVSsctVSdpOPCppTr400F4P1mc4Hm6-D9FOawHOqSc_4f5OzH-adAwhjTMu6-aMIlgchBeOgiMW0zXgGSgY8lkgP6vRb"/>
-<div class="absolute bottom-8 right-8 left-8 glass-card p-6 rounded-2xl border border-white/10">
-<div class="flex items-center gap-4">
-<div class="w-12 h-12 rounded-full bg-tertiary flex items-center justify-center">
-<span class="material-symbols-outlined text-white" data-icon="bolt" data-weight="fill">bolt</span>
+</section>
+<!-- The Modern Mix -->
+<section class="py-32 px-8 bg-surface-container-low relative">
+<div class="max-w-7xl mx-auto">
+<div class="mb-24 flex flex-col items-start">
+<span class="text-primary-dim font-label tracking-[0.2em] uppercase text-xs mb-4" style="">المنهجية</span>
+<h2 class="text-4xl md:text-5xl font-headline font-extrabold" style="">المنظومة الإبداعية المتكاملة</h2>
 </div>
-<div>
-<p class="text-xs font-label text-tertiary font-bold uppercase tracking-wider">Live Status</p>
-<p class="text-lg font-bold">الذكاء الاصطناعي في خدمة الفن</p>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="group bg-surface-container p-10 rounded-2xl hover:bg-surface-container-high transition-all duration-500 border-b-2 border-transparent hover:border-primary-dim">
+<div class="w-14 h-14 mb-8 flex items-center justify-center rounded-xl bg-primary-dim/10 text-primary-dim group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-4xl" style='font-variation-settings: "FILL" 1;'>psychology</span>
 </div>
+<h3 class="text-2xl font-headline font-bold mb-4 text-white" style="">الذكاء الاصطناعي</h3>
+<p class="text-on-surface-variant font-body leading-relaxed" style="">نبتكر لك حلولاً تقنية ذكية تُحسّن سير عملك وتضاعف إنجازك في وقت قياسي.</p>
 </div>
+<div class="group bg-surface-container p-10 rounded-2xl hover:bg-surface-container-high transition-all duration-500 border-b-2 border-transparent hover:border-primary-dim">
+<div class="w-14 h-14 mb-8 flex items-center justify-center rounded-xl bg-primary-dim/10 text-primary-dim group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-4xl" style='font-variation-settings: "FILL" 1;'>campaign</span>
 </div>
+<h3 class="text-2xl font-headline font-bold mb-4 text-white" style="">صناعة المحتوى</h3>
+<p class="text-on-surface-variant font-body leading-relaxed" style="">نصنع لك محتوى استراتيجياً جذاباً يجمع بين القيمة والإبداع لضمان أعلى مستويات التفاعل.</p>
+</div>
+<div class="group bg-surface-container p-10 rounded-2xl hover:bg-surface-container-high transition-all duration-500 border-b-2 border-transparent hover:border-primary-dim">
+<div class="w-14 h-14 mb-8 flex items-center justify-center rounded-xl bg-primary-dim/10 text-primary-dim group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-4xl" style='font-variation-settings: "FILL" 1;'>photo_camera</span>
+</div>
+<h3 class="text-2xl font-headline font-bold mb-4 text-white" style="">التصوير السينمائي</h3>
+<p class="text-on-surface-variant font-body leading-relaxed" style="">حوّل هاتفك إلى كاميرا احترافية؛ نمنحك لقطات فنية بإضاءة وتكوين يضاهي جودة السينما.</p>
+</div>
+<div class="group bg-surface-container p-10 rounded-2xl hover:bg-surface-container-high transition-all duration-500 border-b-2 border-transparent hover:border-primary-dim">
+<div class="w-14 h-14 mb-8 flex items-center justify-center rounded-xl bg-primary-dim/10 text-primary-dim group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-4xl" style='font-variation-settings: "FILL" 1;'>movie_edit</span>
+</div>
+<h3 class="text-2xl font-headline font-bold mb-4 text-white" style="">المونتاج الاحترافي</h3>
+<p class="text-on-surface-variant font-body leading-relaxed" style="">نُتقن فن التحرير البصري وتنسيق الانتقالات والمؤثرات لنمنح فيديوهاتك طابعاً سينمائياً مذهلاً.</p>
 </div>
 </div>
 </div>
 </section>
-<!-- Section 1: Fast Montage Secrets -->
-<section class="py-32 bg-surface-container-low relative overflow-hidden">
-<div class="max-w-7xl mx-auto px-8 relative z-10">
-<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
-<div class="max-w-2xl text-right">
-<h2 class="text-4xl md:text-5xl font-bold mb-6">أسرار المونتاج السريع <span class="text-secondary">(CapCut &amp; VN)</span></h2>
-<p class="text-on-surface-variant text-lg">أتقن فن التعديل الاحترافي في ثوانٍ. نركز على سير عمل يجمع بين السرعة والنتائج السينمائية المبهرة.</p>
+<!-- Meet the Instructor -->
+<section class="py-32 px-8 bg-surface overflow-hidden scroll-mt-[100px]" id="about">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-20">
+<div class="w-full md:w-1/2 relative">
+<div class="absolute -top-10 -right-10 w-64 h-64 bg-primary-dim/20 rounded-full blur-[100px]"></div>
+<div class="relative z-10 border-l-4 border-primary-dim pl-0 md:pl-0">
+<img class="rounded-xl grayscale hover:grayscale-0 transition-all duration-700 w-full aspect-[4/5] object-cover shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRb63qNfe6NBFwC773ihE5g4IreZIdNDUJA9dd4qEV_lfcm5Ln5mHFTOb6RbaC5InyARSOblj7TQjPVkODApfvIr8PG5ZjQnKfmVWVrYCnSKOQhe_HJt4447-9RW_KXNc8qU5eZlXi-7JzFz3g2ZcQFGO0icbzRmi934y8mlQH0_iBC0Vr0rJga0PaVorlytj4175rjS_1Vhy96hNsYDuhYAzn5CjgaeROaVmPm6ASxmqeWjjX3paa-HteBgC7wXpkzBovsR5XPASP" style=""/>
+<div class="absolute bottom-6 right-6 bg-primary-dim text-white py-3 px-8 rounded-lg font-headline font-extrabold text-xl transform -rotate-2" style="">
+                    المـدرب محمد جمال</div>
 </div>
+</div>
+<div class="w-full md:w-1/2">
+<span class="text-primary-dim font-label tracking-[0.2em] uppercase text-xs mb-4 block" style="">تعرّف على مدربك</span>
+<h2 class="text-4xl md:text-5xl font-headline font-extrabold mb-10" style="">من هو مدربك؟</h2>
+<div class="space-y-6 text-on-surface-variant text-lg leading-relaxed font-body">
+<p class="" style="">خبير في صناعة المحتوى الرقمي والسينما البديلة، بخبرة تزيد عن 10 سنوات في دمج التكنولوجيا بالفن.</p>
+<p class="" style="">شغوف بتمكين المبدعين العرب من استخدام أدوات المستقبل اليوم. ساهمت في تدريب أكثر من 5000 طالب على تقنيات السرد البصري والمونتاج الحديث.</p>
+</div>
+<div class="mt-12">
+<span class="font-['Almarai'] font-extrabold text-3xl text-primary-dim/60 block mb-4" style="">محمد جمال </span>
 <div class="flex gap-4">
-<div class="w-16 h-16 glass-card rounded-2xl flex items-center justify-center border border-secondary/30">
-<span class="material-symbols-outlined text-secondary text-3xl" data-icon="speed">speed</span>
-</div>
-<div class="w-16 h-16 glass-card rounded-2xl flex items-center justify-center border border-primary/30">
-<span class="material-symbols-outlined text-primary text-3xl" data-icon="auto_awesome">auto_awesome</span>
-</div>
-</div>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<div class="glass-card p-8 rounded-3xl border border-outline-variant/15 hover:border-secondary/50 transition-colors group">
-<div class="mb-6 overflow-hidden rounded-2xl aspect-video bg-surface-container-highest">
-<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="dynamic close-up of a person editing video on a smartphone with glowing interface elements" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCv1RnwggAoG5-ZoaIXjwZkG9NOc5SbonSXiC7J7aykyfqkGq_j-2X1CZcIDbCYW0pmyVrTcqHhK9i9yG8ObWsdoKdA8ia2bc0IRAJYztMZ4oAV8zUj-JCUva2kaZ75BWMWGbMsAeKobyonQIguQS0eJcRY2ZOaflatWrryov4U8mPBApDA1e_eTMa06RpDw1fJkqYwP5T3t9aZ5LJ-dMISIbfTFT2doICQEiUI6YuyWgZRaMUPtS-OFSojvNQxl66rNIjzrsN6HwQK"/>
-</div>
-<h3 class="text-2xl font-bold mb-4">انتقالات سلسة</h3>
-<p class="text-on-surface-variant">تعلم كيفية استخدام Keyframes لخلق حركات طبيعية تجذب المشاهد من اللحظة الأولى.</p>
-</div>
-<div class="glass-card p-8 rounded-3xl border border-outline-variant/15 hover:border-secondary/50 transition-colors group">
-<div class="mb-6 overflow-hidden rounded-2xl aspect-video bg-surface-container-highest">
-<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="abstract tech background with cyber green and blue circuit lines glowing in the dark" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAktZ8kxMouuDQTh88b0pYBhOFzS-0hOBwXi52Qoe8cma_7BrkPmc_0h9j23XE_5YVqNFmGgvnLQlW7r8Pb_lXjSTJchIRTmFHgK4alvGktAkzuhR6LSsOSGTXep9__nOP195wrQHT5sgzA9NExe5B9CSvGku8EewRT2LqB6OHnhSxRfWp_kNpaY7X-08RR9O7LJnra4rbow6W-FgaBJMWHrAjBBc9GflNMuMt02Wjy6nqVUdfz1gHS_wRo4Rc723UNqMkIEeaXRbl-"/>
-</div>
-<h3 class="text-2xl font-bold mb-4">تصحيح الألوان السينمائي</h3>
-<p class="text-on-surface-variant">حوّل لقطات هاتفك العادية إلى لوحات فنية باستخدام Color Grading مخصص.</p>
-</div>
-<div class="glass-card p-8 rounded-3xl border border-outline-variant/15 hover:border-secondary/50 transition-colors group">
-<div class="mb-6 overflow-hidden rounded-2xl aspect-video bg-surface-container-highest">
-<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="professional video editing software interface with multiple timelines and audio waveforms" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-g4jNPWTDqToP6A0lSOgJmfBP34GUfKI8wfJSA6jQcvQjh0g66zS5eeF0hOYXufAQGXkw081hQV0kPRF6XSfU23b_IByaqbTfN-zNTluN7z2TsGi5XTpePxm8zrIm00BBnBZjkRLUd_Mzeb0BsRig1q_ngwqoQs5z8qnuqM6xtWsHGLpjPqVJQKeWrLwrJ7GWxIz-nmwfrCQVUzz5v0ka4gGU-0_y1IB8jrXSuo6ERutTnC2bmW5Ge1m1N_Dwki8sCRCQ3e-u_yEp"/>
-</div>
-<h3 class="text-2xl font-bold mb-4">إيقاع الموسيقى</h3>
-<p class="text-on-surface-variant">السر في المزامنة. تعلم كيف تجعل قصصك تتحرك مع النغمات بشكل آلي واحترافي.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Section 2: Prompt Engineering -->
-<section class="py-32 relative">
-<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-<div class="relative order-2 lg:order-1">
-<div class="absolute -top-10 -left-10 w-40 h-40 bg-secondary/20 blur-[80px]"></div>
-<div class="bg-surface-container-highest rounded-3xl p-8 font-mono text-sm border border-outline-variant/20 shadow-2xl overflow-hidden">
-<div class="flex gap-2 mb-6">
-<div class="w-3 h-3 rounded-full bg-error"></div>
-<div class="w-3 h-3 rounded-full bg-tertiary"></div>
-<div class="w-3 h-3 rounded-full bg-secondary"></div>
-</div>
-<p class="text-secondary mb-2">// Creative AI Prompt v2.0</p>
-<p class="text-on-surface-variant mb-4">
-<span class="text-primary">act_as</span>("Cinematographer") {<br/>
-                          <span class="text-primary">subject:</span> "Golden hour in Riyadh",<br/>
-                          <span class="text-primary">style:</span> "Cyberpunk-Arabesque",<br/>
-                          <span class="text-primary">lighting:</span> "Volumetric neon fog",<br/>
-                          <span class="text-primary">rendering:</span> "Octane Engine 8k"<br/>
-                        }
-                    </p>
-<div class="h-1 bg-outline-variant/30 w-full mb-4"></div>
-<p class="text-tertiary italic"># Generating your creative vision...</p>
-</div>
-<div class="mt-8 glass-card p-6 rounded-2xl border border-primary/20 flex items-center gap-6">
-<div class="flex -space-x-4 space-x-reverse">
-<div class="w-12 h-12 rounded-full border-2 border-background bg-slate-700"></div>
-<div class="w-12 h-12 rounded-full border-2 border-background bg-slate-600"></div>
-<div class="w-12 h-12 rounded-full border-2 border-background bg-slate-500"></div>
-</div>
-<p class="text-sm font-label text-on-surface-variant">+1.2k طالب يتعلمون هندسة الأوامر الآن</p>
-</div>
-</div>
-<div class="space-y-8 text-right order-1 lg:order-2">
-<h2 class="text-4xl md:text-5xl font-bold leading-tight">هندسة الأوامر <br/><span class="text-gradient-primary">(Prompt Engineering)</span> للمبدعين</h2>
-<p class="text-xl text-on-surface-variant leading-relaxed">
-                    لا تكتفِ بالنتائج العشوائية. تعلم كيف تتحدث لغة الآلة لتحويل خيالك إلى واقع بدقة مذهلة. نكشف لك أسرار الـ Midjourney و ChatGPT لصناعة محتوى لا يُنسى.
-                </p>
-<ul class="space-y-4">
-<li class="flex items-center gap-4 justify-start">
-<span class="text-on-surface-variant">هيكلة الأوامر المعقدة للحصول على نتائج ثابتة</span>
-<span class="material-symbols-outlined text-secondary" data-icon="check_circle" data-weight="fill">check_circle</span>
-</li>
-<li class="flex items-center gap-4 justify-start">
-<span class="text-on-surface-variant">دمج الـ AI في عملية التفكير الإبداعي (Ideation)</span>
-<span class="material-symbols-outlined text-secondary" data-icon="check_circle" data-weight="fill">check_circle</span>
-</li>
-<li class="flex items-center gap-4 justify-start">
-<span class="text-on-surface-variant">تقنيات الـ Prompting المتقدمة للفيديو والصور</span>
-<span class="material-symbols-outlined text-secondary" data-icon="check_circle" data-weight="fill">check_circle</span>
-</li>
-</ul>
-<button class="text-tertiary font-bold text-lg flex items-center gap-2 group hover:gap-4 transition-all duration-300">
-<span class="material-symbols-outlined transform rotate-180" data-icon="arrow_back">arrow_back</span>
-                    استكشف المنهج التعليمي
-                </button>
-</div>
-</div>
-</section>
-<!-- Section 3: Creative Gallery (Before & After) -->
-<section class="py-32 bg-surface-container relative overflow-hidden">
-<div class="max-w-7xl mx-auto px-8">
-<div class="text-center mb-20">
-<h2 class="text-4xl md:text-5xl font-bold mb-6">المعرض الإبداعي</h2>
-<p class="text-on-surface-variant text-lg max-w-2xl mx-auto">شاهد السحر الذي يحدث عندما تلتقي التكنولوجيا بالخيال. مقارنة حية بين الخام والنتيجة النهائية.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-<!-- Gallery Item 1 -->
-<div class="space-y-6">
-<div class="relative group rounded-3xl overflow-hidden aspect-[9/16] bg-black max-h-[600px] mx-auto">
-<img class="absolute inset-0 w-full h-full object-cover" data-alt="raw handheld footage of a city street at night with dull colors and natural blur" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDezDmjKWZOnmkNzqv_FCzcYHkTw-DicPCqWnj93K7zUAvMs-XG1pngoGHLHXAVwKAm1yoVodEslMukgnjGS31Ncj3gXO78joALc6M_uZxzOfYgSfjFQRZLVmBCyEid6DkrrxyUHBBn_RhC_cGVr05LpAd7cPaGnjn0-uHb_E9ruDL6nvYhFjtPa5MWrvaZnKMXl4yI305S5hfAI_Qc1wxdnYzxSQg-EEHMO_nkHXZViQcPii4wUt5xMIXhlGvRpwPWAc-vT7mphvIP"/>
-<div class="absolute inset-0 bg-primary/40 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-<div class="absolute top-6 right-6 glass-card px-4 py-2 rounded-full text-sm font-bold border border-white/20">RAW FOOTAGE</div>
-<div class="absolute bottom-6 left-6 right-6 p-6 glass-card rounded-2xl border border-white/10 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
-<p class="font-bold">قبل: تصوير هاتف عادي</p>
-</div>
-</div>
-</div>
-<!-- Gallery Item 2 -->
-<div class="space-y-6">
-<div class="relative group rounded-3xl overflow-hidden aspect-[9/16] bg-black max-h-[600px] mx-auto border-2 border-primary">
-<img class="absolute inset-0 w-full h-full object-cover" data-alt="stunning cinematic masterwork of a futuristic neon city with deep purples, sharp details, and professional color grading" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNTe1sHVPHEshOBDIVvhOEY-a6We86zIdFpon2d046vkXXzkhtRO_9yhM5H5W5jytk70Rask3ftdLJNHmxS5xN94UxvpTISrjrIVfpAbnyP5JDIBgdegPpmR2vtDFIG3mwATxBhFvYsoJCXyOleNCR9v53WEvWLfUN1esY3PRRCrxkTmh3aiIR49Ls1e6KK6AQPaMbFYTQk_944lwcOrPVj_kjLTIeB4l4d2qY_mUvGztqPP52ZgSzhKN9rk9BF1xJADzTUsyOr6E9"/>
-<div class="absolute top-6 right-6 bg-primary px-4 py-2 rounded-full text-sm font-bold shadow-lg">FINAL RESULT</div>
-<div class="absolute bottom-6 left-6 right-6 p-6 glass-card rounded-2xl border border-primary/30">
-<p class="font-bold text-primary">بعد: المعالجة بالـ AI والمونتاج</p>
-<p class="text-sm text-on-surface-variant mt-2">تم استخدام CapCut للتلوين و Midjourney للعناصر الخلفية.</p>
-</div>
+<div class="bg-surface-container-high px-4 py-2 rounded-full text-sm font-label text-white" style="">+ 10 سنوات الخبرة</div>
+<div class="bg-surface-container-high px-4 py-2 rounded-full text-sm font-label text-white" style="">5k+ طالب</div>
 </div>
 </div>
 </div>
 </div>
 </section>
-<!-- Social Proof -->
-<section class="py-32">
-<div class="max-w-7xl mx-auto px-8">
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<div class="p-10 rounded-3xl bg-surface-container-low border border-outline-variant/10 relative">
-<span class="material-symbols-outlined text-primary/30 text-6xl absolute top-6 left-6" data-icon="format_quote">format_quote</span>
-<p class="text-lg mb-8 relative z-10">"كانت الدورة نقطة تحول في مسيرتي كصانع محتوى. تعلمت كيف أختصر ساعات من العمل في دقائق."</p>
-<div class="flex items-center gap-4">
-<div class="w-12 h-12 rounded-full bg-slate-800"></div>
+<!-- Results/Portfolio Bento -->
+<section class="py-32 px-8 bg-surface-container-low scroll-mt-[100px]" id="portfolio">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-24">
+<h2 class="text-4xl md:text-6xl font-headline font-extrabold mb-6" style="">نتائج ملهمة</h2>
+<p class="text-on-surface-variant text-xl font-body" style="">شاهد ما تمكن طلابنا من تحقيقه باستخدام هواتفهم فقط</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[800px]">
+<div class="md:col-span-8 relative group overflow-hidden rounded-2xl">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHBIDh_ZL9nOOQk3R0NHSy8UHiuvavYCyJnlhqAMIqIcV9yvyeFeHWO1us4nFLkhfKhxFGEg_BCLNzqPiAQFamo-zW6vo6OVtSBO7CEhQzrxciJkZzMng7SvVH2fhlk4i48J48xnN2qZOqF7ozMSWoetNpcKXY-PO9qlLywjjyzqps8SdmkalwcYINjJ65dH14EgzL2q8J0uPXf2sKWtxgzrgLkeQiYxhF48TyFnd34nFIojgT80T4aKjywKRHO3KvlQFBN0Ep4UPc" style=""/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
 <div>
-<p class="font-bold">أحمد م.</p>
-<p class="text-sm text-on-surface-variant">مخرج أفلام مستقل</p>
+<span class="text-primary-dim font-bold text-sm mb-2 block font-label" style="">نتائج الفيديو عبر الهاتف المحمول</span>
+<h4 class="text-2xl font-headline font-extrabold" style="">سرد قصصي سينمائي بالكامل عبر آيفون 13</h4>
 </div>
 </div>
 </div>
-<div class="p-10 rounded-3xl bg-surface-container-low border border-outline-variant/10 relative">
-<span class="material-symbols-outlined text-secondary/30 text-6xl absolute top-6 left-6" data-icon="format_quote">format_quote</span>
-<p class="text-lg mb-8 relative z-10">"هندسة الأوامر غيرت طريقتي في التفكير. الآن أصبح الذكاء الاصطناعي شريكي الإبداعي الأول."</p>
+<div class="md:col-span-4 relative group overflow-hidden rounded-2xl">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJ2a5HyLR3OgfNL6xzPmPMEHH42mxIy9WiWbkixpvatKT14JJLihxbVcXcpGV_FIDBgzZpA9km1FBg-wysQNeW7yz8OU3R4q2gDW0RObTjjHVFWjYur6lAgbMA1mj_MZkUllIAcdt81ppYN2S3L3MXEUZMRwYOhfQFpwlZCRss-G3JbfEaEWN0JnMdrqQ_BagyO0_wnKXXnt4WP2p4BVLnymsaWpuskibWPWnReTUNMeLF759acZN8yFxDZSzQEuIRpwFD5HTYcJBl" style=""/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
+<h4 class="text-xl font-headline font-extrabold" style="">تصوير المنتجات الاحترافي</h4>
+</div>
+</div>
+<div class="md:col-span-4 relative group overflow-hidden rounded-2xl">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqwXW5kdyPjIH90EU1qJ838dCh7l_8tRTUGfFSO1cq8CwR0j4UEb0LAR4pD1FTAzOpMJsqV8k-aooBzuvCk8uL2DmB7dOxW8Kdox_jY9LFyOxb9O9rquu94LpmLnxSNKApyOOO5OY29zQluEio-u9__x05mMVc5bl22GDczhXM8GYvUCaa0foLyLJE2mav15uhw0niv7I9F5vRC--Dc_fV3_SmvhXH1DcYfr62ipAHlemrpKZxthYDyfCGXHGlJ2e6X5EeUvDWI57y" style=""/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
+<h4 class="text-xl font-headline font-extrabold" style="">دمج الذكاء الاصطناعي</h4>
+</div>
+</div>
+<div class="md:col-span-8 relative group overflow-hidden rounded-2xl">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2KedhZNTRCGbL2xoT35-01aYycBvrR73E6XiLUkN9RTxC66fLF5WbeDYalYch-4x1kNCGsysTTd2C0kLbFUhj-tzsBhevR6z12RvkENsx2uYu_ZmQ83oGe0JkHAeF8F_p7eqbrF0couu3KJ1Dvh2XXpFkXh3_WKefUc-kOafqFerCWIk9imzvq8LXqVqanB4An0a-1MWztY8sEydIuV8TJ-la0ZkNIBH1KtTKWpWWFFuCfosvBH87zrMcgNozbOQBzIIjiSP79_cJ" style=""/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
+<h4 class="text-2xl font-headline font-extrabold" style="">قوة الإضاءة المنخفضة في الموبايل</h4>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Courses/Services -->
+<section class="py-32 px-8 bg-surface scroll-mt-[100px]" id="courses">
+<div class="max-w-7xl mx-auto">
+<h2 class="text-4xl md:text-5xl font-headline font-extrabold mb-20 text-center" style="">انطلق الآن</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+<!-- Course 1 -->
+<div class="bg-surface-container rounded-3xl p-8 flex flex-col h-full border border-outline-variant/10 hover:border-primary-dim/30 transition-all duration-300">
+<h3 class="text-2xl font-headline font-extrabold mb-4" style="">أساسيات صناعة المحتوى</h3>
+<p class="text-on-surface-variant mb-8 flex-grow font-body" style="">مدخلك لعالم الفيديو والموبايل من الصفر حتى أول فيديو احترافي لك.</p>
+<div class="space-y-4 mb-8">
+<div class="flex items-center gap-3 text-sm text-on-surface font-body">
+<span class="material-symbols-outlined text-primary-dim" style="">check_circle</span>
+<span class="" style="">أكثر من 20 درساً مسجلاً</span>
+</div>
+<div class="flex items-center gap-3 text-sm text-on-surface font-body">
+<span class="material-symbols-outlined text-primary-dim" style="">check_circle</span>
+<span class="" style="">دليل تطبيقات المونتاج</span>
+</div>
+</div>
+<div class="flex items-center justify-between mb-8">
+<span class="text-3xl font-extrabold font-headline text-white" style="">$99</span>
+<span class="text-sm text-on-surface-variant line-through font-body" style="">$199</span>
+</div>
+<button class="w-full py-4 rounded-xl border border-primary-dim text-primary-dim font-headline font-bold hover:bg-primary-dim hover:text-white transition-all" style="">سجل الآن</button>
+</div>
+<!-- Featured Course -->
+<div class="bg-surface-container-high rounded-3xl p-8 flex flex-col h-full border-2 border-primary-dim relative shadow-[0_0_40px_rgba(227,28,64,0.1)] scale-105 z-10">
+<div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary-dim text-white px-6 py-1 rounded-full text-xs font-headline font-extrabold uppercase tracking-widest" style="">المسار الذهبي</div>
+<h3 class="text-2xl font-headline font-extrabold mb-4" style="">احتراف الذكاء الاصطناعي والبصريات</h3>
+<p class="text-on-surface-variant mb-8 flex-grow font-body" style="">الدورة الشاملة التي تدمج قوة الـ AI مع سينمائية الموبايل لإنتاج محتوى عالمي.</p>
+<div class="space-y-4 mb-8">
+<div class="flex items-center gap-3 text-sm text-on-surface font-body">
+<span class="material-symbols-outlined text-primary-dim" style="">check_circle</span>
+<span class="" style="">تدريب مباشر (زووم)</span>
+</div>
+<div class="flex items-center gap-3 text-sm text-on-surface font-body">
+<span class="material-symbols-outlined text-primary-dim" style="">check_circle</span>
+<span class="" style="">أدوات AI حصرية للمشتركين</span>
+</div>
+<div class="flex items-center gap-3 text-sm text-on-surface font-body">
+<span class="material-symbols-outlined text-primary-dim" style="">check_circle</span>
+<span class="" style="">مراجعة أعمالك أسبوعياً</span>
+</div>
+</div>
+<div class="flex items-center justify-between mb-8">
+<span class="text-3xl font-extrabold font-headline text-white" style="">$200</span>
+<span class="text-sm text-on-surface-variant line-through font-body" style="">$499</span>
+</div>
+<button class="w-full py-4 rounded-xl bg-primary-dim text-white font-headline font-bold hover:bg-primary transition-all" style="">اشترك في المسار الذهبي</button>
+</div>
+<!-- Course 3 -->
+<div class="bg-surface-container rounded-3xl p-8 flex flex-col h-full border border-outline-variant/10 hover:border-primary-dim/30 transition-all duration-300">
+<h3 class="text-2xl font-headline font-extrabold mb-4" style="">كوتشينج خاص 1:1</h3>
+<p class="text-on-surface-variant mb-8 flex-grow font-body" style="">جلسات استشارية خاصة لتطوير علامتك التجارية الشخصية أو مشروعك التجاري.</p>
+<div class="space-y-4 mb-8">
+<div class="flex items-center gap-3 text-sm text-on-surface font-body">
+<span class="material-symbols-outlined text-primary-dim" style="">check_circle</span>
+<span class="" style="">4 جلسات مكثفة شهرياً</span>
+</div>
+<div class="flex items-center gap-3 text-sm text-on-surface font-body">
+<span class="material-symbols-outlined text-primary-dim" style="">check_circle</span>
+<span class="" style="">خطة محتوى مخصصة</span>
+</div>
+</div>
+<div class="flex items-center justify-between mb-8">
+<span class="text-3xl font-extrabold font-headline text-white" style="">$300</span>
+</div>
+<button class="w-full py-4 rounded-xl border border-primary-dim text-primary-dim font-headline font-bold hover:bg-primary-dim hover:text-white transition-all" style="">تواصل للمزيد</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-32 px-8 bg-surface-container-low overflow-hidden">
+<div class="max-w-7xl mx-auto">
+<h2 class="text-4xl font-headline font-extrabold mb-20 text-center" style="">قالوا عن التجربة</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+<div class="relative pt-12">
+<div class="absolute top-0 left-0 text-9xl text-primary-dim/10 font-black leading-none -translate-y-8 select-none" style="">“</div>
+<div class="bg-surface p-10 rounded-2xl relative z-10 border border-outline-variant/5">
+<p class="text-lg text-on-surface italic mb-8 leading-relaxed font-body" style="">"لم أكن أتخيل أبداً أن هاتفي قادر على إنتاج هذه الجودة. دورة الذكاء الاصطناعي غيرت نظرتي للإبداع تماماً."</p>
 <div class="flex items-center gap-4">
-<div class="w-12 h-12 rounded-full bg-slate-800"></div>
+<img class="w-12 h-12 rounded-full object-cover grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBE9kv_yVFS2tDwlozXr42B5epEulVh3mxITbsvdeAJoUxeuxwiMeVA2EroJQvATJ01fTDtbMnhK8UxcArGGjJTTjwBf_0SN_AWQ6kOmSFYD-np4DFd5cIV0FGmVXDBrcMmQwJLDzzgb5hXuhklf1qoZwSL-otY2sAUUGlmtSLJmghL5ROFpOegP12aN3GBLhbMPJEepM4fHFm1W_mzCJyLjmEIpu-BWvfgCEgk03h5Wx4-v5TORqjmzOfnocFhxksjP51XOMG9L2mL" style=""/>
 <div>
-<p class="font-bold">سارة ع.</p>
-<p class="text-sm text-on-surface-variant">مصممة جرافيك</p>
+<h5 class="font-headline font-bold text-white" style="">سامي العلي</h5>
+<p class="text-xs text-on-surface-variant uppercase font-label" style="">صانع محتوى تقني</p>
 </div>
 </div>
 </div>
-<div class="p-10 rounded-3xl bg-surface-container-low border border-outline-variant/10 relative">
-<span class="material-symbols-outlined text-tertiary/30 text-6xl absolute top-6 left-6" data-icon="format_quote">format_quote</span>
-<p class="text-lg mb-8 relative z-10">"المعرض الإبداعي والدروس العملية تجعلك تبدأ في الإنتاج من اليوم الأول. لا مجال للتنظير هنا."</p>
+</div>
+<div class="relative pt-12">
+<div class="absolute top-0 left-0 text-9xl text-primary-dim/10 font-black leading-none -translate-y-8 select-none" style="">“</div>
+<div class="bg-surface p-10 rounded-2xl relative z-10 border border-outline-variant/5">
+<p class="text-lg text-on-surface italic mb-8 leading-relaxed font-body" style="">"المدرب أحمد لديه قدرة عجيبة على تبسيط المعقد. الآن أقوم بمونتاج فيديوهات لشركتي في دقائق بدلاً من ساعات."</p>
 <div class="flex items-center gap-4">
-<div class="w-12 h-12 rounded-full bg-slate-800"></div>
+<img class="w-12 h-12 rounded-full object-cover grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdKxHNnkrhJC7x_2PeJRHOUYbIUDyQSalODW-6ShRlW922oGqUlrvUt8bxJr2YbP5n7j3dlbxXRRJkPU93nzEw9tPZZ3bmoYtGYiORKo7fhYLeZa9GIeyXOnXLwq5BTKOq0iZUZ8iqchoN-1RFrfu0wgA-pVTYMjJ_XC8XQzc_ARoliQEiiTEONrW-P7kwij0LfZQiXZyCmqY_bkdWiIRPT52dNAn4jY2F5O9NmFU5hIZC1wxIRzGPplqtEcWCvbW55JoWMgFC0hm2" style=""/>
 <div>
-<p class="font-bold">خالد و.</p>
-<p class="text-sm text-on-surface-variant">صانع محتوى تقني</p>
+<h5 class="font-headline font-bold text-white" style="">ليلى مراد</h5>
+<p class="text-xs text-on-surface-variant uppercase font-label" style="">رائدة أعمال</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative pt-12">
+<div class="absolute top-0 left-0 text-9xl text-primary-dim/10 font-black leading-none -translate-y-8 select-none" style="">“</div>
+<div class="bg-surface p-10 rounded-2xl relative z-10 border border-outline-variant/5">
+<p class="text-lg text-on-surface italic mb-8 leading-relaxed font-body" style="">"الأدوات التي تعلمتها في الدورة الذهبية وضعتني في مستوى آخر تماماً عن منافسي في السوق."</p>
+<div class="flex items-center gap-4">
+<img class="w-12 h-12 rounded-full object-cover grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBADtchZ2qMutZNy7w_ehbJVqxyEkY-3pSjVpvaamG6sSzqk9HWo88FV2eRk1I329Cvl2acMlSTccYFj55Nhm4YRnuOG4u_rQJ1AyF32uAZMPB6Y7xYRosUAm_rymwFKBLNwF9za_8XF3o8IBzUHSi98t8iRfjURwzgi7QxDaDWH2vbdvb4OhoUzfKce2-thJgdK7yG_riR5nfP9XKTOQcb9tgZx_l_1xWLHy-iBFtJmitir-fMN66yJwL-kL5XMc_RZ3Bb9IMEb2yt" style=""/>
+<div>
+<h5 class="font-headline font-bold text-white" style="">خالد يوسف</h5>
+<p class="text-xs text-on-surface-variant uppercase font-label" style="">مخرج أفلام مستقل</p>
+</div>
 </div>
 </div>
 </div>
 </div>
 </div>
 </section>
-<!-- CTA Footer -->
-<section class="py-32 relative">
-<div class="max-w-5xl mx-auto px-8 relative z-10">
-<div class="bg-gradient-to-br from-primary/20 to-secondary/20 rounded-[3rem] p-12 md:p-20 text-center border border-white/10 backdrop-blur-xl">
-<h2 class="text-4xl md:text-6xl font-bold mb-8 tracking-tighter">هل أنت مستعد للمرحلة القادمة؟</h2>
-<p class="text-xl text-on-surface-variant mb-12 max-w-2xl mx-auto">انضم إلى أكثر من 2000 مبدع يعيدون تشكيل مستقبل المحتوى الرقمي.</p>
-<div class="flex flex-col sm:flex-row gap-6 justify-center">
-<button class="bg-primary text-on-primary-container px-10 py-5 rounded-2xl font-extrabold text-xl hover:scale-105 transition-transform shadow-2xl shadow-primary/20">
-                        اشترك في الأكاديمية الآن
-                    </button>
-<button class="glass-card px-10 py-5 rounded-2xl font-bold text-xl border border-white/10 hover:bg-white/10 transition-colors">
-                        تواصل معي مباشرة
-                    </button>
+<!-- Final CTA Section -->
+<section class="py-32 px-8 bg-surface relative overflow-hidden scroll-mt-[100px]" id="about">
+<div class="absolute inset-0 bg-primary-dim/5 flex items-center justify-center pointer-events-none">
+<div class="w-[800px] h-[800px] bg-primary-dim/10 rounded-full blur-[150px]"></div>
 </div>
-<div class="mt-12 flex items-center justify-center gap-8 opacity-60 grayscale">
-<span class="font-headline font-bold text-2xl">VN</span>
-<span class="font-headline font-bold text-2xl">CapCut</span>
-<span class="font-headline font-bold text-2xl">Midjourney</span>
-<span class="font-headline font-bold text-2xl">OpenAI</span>
+<div class="max-w-4xl mx-auto text-center relative z-10">
+<h2 class="text-5xl md:text-7xl font-headline font-extrabold mb-10 leading-tight" style="">لا تدع الفرصة تفوتك.<br/><span class="text-primary-dim" style="">سجل اليوم.</span></h2>
+<p class="text-on-surface-variant text-xl mb-12 max-w-2xl mx-auto font-body" style="">انضم إلى أكثر من 5000 مبدع بدأوا رحلتهم بالفعل في صياغة المستقبل البصري.</p>
+<div class="flex flex-col md:flex-row items-center justify-center gap-4 mb-20">
+<input class="w-full md:w-80 bg-surface-container border-none p-5 rounded-xl focus:ring-2 focus:ring-primary-dim text-white font-body" placeholder="بريدك الإلكتروني" type="email"/>
+<button class="w-full md:w-auto px-10 py-5 bg-primary-dim text-white font-headline font-extrabold rounded-xl hover:bg-primary transition-all shadow-xl shadow-primary-dim/20" style="">انضم للنشرة الإبداعية</button>
+</div>
+<div class="flex justify-center gap-10">
+<a class="text-on-surface-variant hover:text-white transition-colors text-3xl" href="#" style=""><span class="material-symbols-outlined" style="">public</span></a>
+<a class="text-on-surface-variant hover:text-white transition-colors text-3xl" href="#" style=""><span class="material-symbols-outlined" style="">camera</span></a>
+<a class="text-on-surface-variant hover:text-white transition-colors text-3xl" href="#" style=""><span class="material-symbols-outlined" style="">play_circle</span></a>
 </div>
 </div>
-</div>
-<div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-1/2 bg-gradient-to-t from-background to-transparent pointer-events-none"></div>
 </section>
 <!-- Footer -->
-<footer class="bg-[#091328] w-full py-12 px-8 border-t border-[#b6a0ff]/10">
-<div class="flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto">
-<div class="text-xl font-bold text-[#b6a0ff] font-['Space_Grotesk']">
-                Synthetic Muse
-            </div>
-<div class="flex gap-8">
-<a class="text-slate-500 hover:text-[#ff734a] transition-colors font-['Inter'] text-sm tracking-wide" href="#">Instagram</a>
-<a class="text-slate-500 hover:text-[#ff734a] transition-colors font-['Inter'] text-sm tracking-wide" href="#">YouTube</a>
-<a class="text-slate-500 hover:text-[#ff734a] transition-colors font-['Inter'] text-sm tracking-wide" href="#">LinkedIn</a>
-<a class="text-slate-500 hover:text-[#ff734a] transition-colors font-['Inter'] text-sm tracking-wide" href="#">Contact</a>
-</div>
-<div class="text-slate-500 font-['Inter'] text-sm tracking-wide opacity-80">
-                © 2024 Synthetic Muse. All rights reserved.
-            </div>
-</div>
-</footer>
 </body></html>
